@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>USD to EUR Exchange</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <link href="vendor/bulma/css/bulma.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+        Irish Tax: USD to EUR Converter
+      </h1>
+                <h2 class="subtitle">
+        A tool to help with my Irish taxes. Rates taken from <a href="https://www.revenue.ie/en/customs-traders-and-agents/importing-and-exporting/exchange-rates/index.aspx">Revenue.ie</a>.
+      </h2>
+                <div class="control has-icons-left has-icons-right">
+                    <input id="usd-value" class="input is-large" type="text" placeholder="Enter USD value"> <span class="icon is-large is-left"><i class="fas fa-dollar-sign"></i></span></div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="columns" id="2017-exchange">
+            <div class="column">
+                <p class="title has-text-centered">2018</p>
+                <div id="js-2018">
+                    <p class="empty has-text-centered">--</p>
+                </div>
+            </div>
+            <div class="column">
+                <p class="title has-text-centered">2017</p>
+                <div id="js-2017">
+                    <p class="empty has-text-centered">--</p>
+                </div>
+            </div>
+            <div class="column">
+                <p class="title has-text-centered">2016</p>
+                <div id="js-2016">
+                    <p class="empty has-text-centered">--</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
