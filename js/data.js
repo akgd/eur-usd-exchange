@@ -100,6 +100,11 @@ var exchangeRates = [
       denomination: "USD"
     },
     {
+      date: "2017-12-31",
+      rate: 1.1196,
+      denomination: "USD"
+    },
+    {
       date: "2016-01-01",
       rate: 1.0952,
       denomination: "USD"
@@ -157,6 +162,11 @@ var exchangeRates = [
     {
       date: "2016-12-01",
       rate: 1.0602,
+      denomination: "USD"
+    },
+    {
+      date: "2016-12-31",
+      rate: 1.1093,
       denomination: "USD"
     }
   ];
