@@ -25,6 +25,21 @@ var exchangeRates = [
       denomination: "USD"
     },
     {
+      date: "2018-06-01",
+      rate: 1.1708,
+      denomination: "USD"
+    }, 
+    {
+      date: "2018-07-01",
+      rate: 1.1578,
+      denomination: "USD"
+    }, 
+    {
+      date: "2018-08-01",
+      rate:  1.1611,
+      denomination: "USD"
+    }, 
+    {
       date: "2017-01-01",
       rate: 1.0421,
       denomination: "USD"
