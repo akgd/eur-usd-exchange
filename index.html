@@ -6,7 +6,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>USD to EUR Exchange</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+        integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
     <link href="vendor/bulma/css/bulma.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -17,45 +19,44 @@
             <div class="container">
                 <h1 class="title">Irish Tax: USD to EUR Converter</h1>
                 <h2 class="subtitle">
-                A tool to help with my Irish taxes. Rates taken from <a href="https://www.revenue.ie/en/customs-traders-and-agents/importing-and-exporting/exchange-rates/index.aspx">Revenue.ie</a>.
+                    A tool to help with <a href="https://github.com/akgd">my</a> Irish taxes. Rates taken from <a
+                        href="https://www.revenue.ie/en/customs-traders-and-agents/importing-and-exporting/exchange-rates/index.aspx">Revenue.ie</a>.
                 </h2>
                 <div class="control has-icons-left has-icons-right">
-                    <input id="usd-value" class="input is-large" type="text" placeholder="Enter USD value"> <span class="icon is-large is-left"><i class="fas fa-dollar-sign"></i></span></div>
+                    <input id="usd-value" class="input is-large" type="text" placeholder="Enter USD value"> <span
+                        class="icon is-large is-left"><i class="fas fa-dollar-sign"></i></span></div>
             </div>
         </div>
     </section>
     <section class="section">
-        <div class="columns" id="2017-exchange">
+        <div class="columns">
+            <div class="column">
+                <p class="title has-text-centered">2019</p>
+                <div id="js-2019" class="exchange-rates">
+                    <p class="empty has-text-centered">--</p>
+                </div>
+            </div>
             <div class="column">
                 <p class="title has-text-centered">2018</p>
-                <div id="js-2018">
+                <div id="js-2018" class="exchange-rates">
                     <p class="empty has-text-centered">--</p>
                 </div>
             </div>
             <div class="column">
                 <p class="title has-text-centered">2017</p>
-                <div id="js-2017">
+                <div id="js-2017" class="exchange-rates">
                     <p class="empty has-text-centered">--</p>
                 </div>
             </div>
             <div class="column">
                 <p class="title has-text-centered">2016</p>
-                <div id="js-2016">
+                <div id="js-2016" class="exchange-rates">
                     <p class="empty has-text-centered">--</p>
                 </div>
             </div>
         </div>
         </div>
     </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    Created by <a href="https://github.com/akgd">Andrea Goodson</a>.
-                </p>
-            </div>
-        </div>
-    </footer>
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
 </body>
