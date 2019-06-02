@@ -17,10 +17,18 @@ input {
   text-transform: uppercase;
 }
 .js-rate {
-  color: #999;
+  opacity:0.6;
   font-style: italic;
   display: block;
   font-weight: normal;
   font-size: 0.7em;
 }
-
+.is-average .js-month,
+.is-average .js-rate {
+  color:#01847a;
+}
+.is-average .input {
+  color:#01847a;
+  background-color: #f0f8f6;
+  border-color: #f0f8f6;
+}
